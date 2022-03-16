@@ -1,0 +1,9 @@
+header, main {
+    background-color:cadetblue; 
+    width:270px; 
+    margin-left: calc(50% - 135px);"
+}
+main {
+    margin-top: 100px;
+    background-color: orange;
+}
