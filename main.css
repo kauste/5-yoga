@@ -26,7 +26,14 @@ a{
     text-decoration: none;
     line-height: 20px;
     margin-left: 20px;
-    color: black
+    color: black;
+    padding-bottom: 5px;
+}
+a:hover {
+    border-bottom: 2px red solid;
+}
+a:first-child {
+    border-bottom: 2px red solid
 }
 
 main {
