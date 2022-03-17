@@ -1,11 +1,10 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(29, 207, 178);
 }
 
-header, main {
-    background-color:cadetblue; 
-    width:270px; 
-    margin-left: calc(50% - 135px);"
+header, main { 
+    width:800px; 
+    margin-left: calc(50% - 400px);"
 }
 
 img {
