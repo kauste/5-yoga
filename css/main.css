@@ -1,26 +1,38 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header, main { 
+body > header, main { 
     display: inline-block;
-    width:800px; 
-    margin-left: calc(50% - 400px);
+    width:1000px; 
+    margin-left: calc(50% - 500px);
 }
 
-img {
+header > img {
     height: 46px;
     float: left;
     
 }
 
-nav {
+header> nav {
     float: right;
     margin-top: 13px
     
 }
 
-a{
+nav > a{
     display: inline-block;
     font-size: 18px;
     text-decoration: none;
@@ -29,14 +41,40 @@ a{
     color: black;
     padding-bottom: 5px;
 }
-a:hover {
+nav > a:hover {
     border-bottom: 2px red solid;
 }
 a:first-child {
     border-bottom: 2px red solid
 }
 
-main {
+body > main {
     margin-top: 100px;
     background-color: orange;
+}
+
+main > div {
+    width: 45%;
+    float: left;
+    padding-right:
+
+}
+
+h1 {
+
+}
+
+p{
+
+}
+
+a{
+
+}
+
+main > img {
+    width: 55%;
+    float: left;
+    height: 300px
+
 }
